@@ -35,7 +35,7 @@
   *   - Make dectection work after restart of X
   */
 
-/* $XFree86: xc/programs/Xserver/hw/xfree86/input/dmc/xf86DMC.c,v 1.3 2003/06/25 18:06:25 eich Exp $ */
+/* $XFree86$ */
 
 #define _DMC_C_
 
