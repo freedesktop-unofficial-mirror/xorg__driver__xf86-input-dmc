@@ -1,4 +1,4 @@
-.\" $XFree86$
+.\" $XFree86: xc/programs/Xserver/hw/xfree86/input/dmc/dmc.man,v 1.1 2001/08/17 13:27:55 dawes Exp $
 .\" shorthand for double quote that works everywhere.
 .ds q \N'34'
 .TH DMC __drivermansuffix__ __vendorversion__
