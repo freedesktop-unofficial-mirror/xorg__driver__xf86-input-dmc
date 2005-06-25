@@ -50,7 +50,7 @@
 
 #include "xf86DMC.h"
 
-InputDriverRec DMC = {
+_X_EXPORT InputDriverRec DMC = {
         1,
         "dmc",
         NULL,
@@ -135,7 +135,7 @@ DMCSetupProc(	pointer module,
 	return (pointer) 1;
 }
 
-XF86ModuleData dmcModuleData = { &VersionRec, DMCSetupProc, NULL };
+_X_EXPORT XF86ModuleData dmcModuleData = { &VersionRec, DMCSetupProc, NULL };
 
 
 #endif /* XFree86LOADER */
