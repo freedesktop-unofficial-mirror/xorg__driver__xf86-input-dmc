@@ -37,6 +37,10 @@
 
 /* $XFree86: xc/programs/Xserver/hw/xfree86/input/dmc/xf86DMC.c,v 1.1 2001/08/17 13:27:55 dawes Exp $ */
 
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
 #define _DMC_C_
 
 #include <misc.h>
