@@ -526,7 +526,7 @@ ReadInput (InputInfoPtr pInfo)
 static int
 ControlProc (InputInfoPtr pInfo, xDeviceCtl * control)
 {
-	xDeviceTSCalibrationCtl *c = (xDeviceTSCalibrationCtl *) control;
+	xDeviceAbsCalibCtl *c = (xDeviceAbsCalibCtl *) control;
 	DMCPrivatePtr priv = (DMCPrivatePtr) (pInfo->private);
 
         priv->min_x = c->min_x;
